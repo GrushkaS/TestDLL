@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<zuluplugin version="8.0" xmlns="http://politerm.com/schemas/zuluplugin">
+    <plugin id="MyTestPlugin"
+            name="TestDLL"
+            description=""
+            copyright="">
+        <progid control="1">TestDLL.PluginControl</progid>
+        <controlbar showhidecommand="ShowForm"
+                    initialsize="440,210"/>
+        <commands>
+            <command id="ShowForm" 
+                     name="TestPluginQuadrangle"
+                     description="Show/hide the plugin form">
+                <method name="ShowForm"/>
+                <categories>Task</categories>
+            </command>
+        </commands>
+    </plugin>
+</zuluplugin>
